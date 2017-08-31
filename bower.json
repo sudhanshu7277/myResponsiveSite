@@ -1,0 +1,12 @@
+{
+  "name": "Sudhanshu_jain_profile",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-sanitize": "1.4.x",
+    "materialize":"latest"
+  }
+}

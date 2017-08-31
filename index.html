@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html ng-app="sudhanshuApp">
+
+<head>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+	<link rel="stylesheet" href="app/css/styles.css"/>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+	<script src="app/js/scripts.js"></script>
+	<script src="app/js/routes.js"></script>
+</head>
+<body ng-controller="mainController">
+<header>
+	<div id="header-inner">
+		<a href="index.html" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon">
+
+			</a>
+			<ul>
+				<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+				<li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+				<li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<div id="main">
+	<div ng-view></div>
+
+</div>
+
+
+</body>
+
+</html>
